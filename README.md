@@ -2,7 +2,8 @@
 This repository mainly contains two contents: one is using ReID to model the appearance of the pedestrians, the other is to build a tracker based on Neural Message Passing (GNN).  
 
 ## Introduction
-These two files are part of exercises for the lecture Computer Vision 3: Detection, Segmentation and Tracking. The goal of both exercises is to track pedestrians in the sequence of viedo using [MOT16](https://motchallenge.net/data/MOT16/) dataset.
+These two methods are part of exercises for the lecture Computer Vision 3: Detection, Segmentation and Tracking. The goal of both exercises is to track pedestrians in the sequence of viedo using [MOT16](https://motchallenge.net/data/MOT16/) dataset.
+Before beginning the two main files `ReID_exercise`and `GNN_exercise`, please follow all instructions of `exercise 0`.
 
 ## ReID: appearance-based tracking
 The ReID exercise investigates appearance-based tracking by training a `ReID network`. What we did is:
